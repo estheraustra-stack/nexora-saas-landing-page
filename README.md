@@ -12,7 +12,7 @@ Nexora is a premium, conversion-focused SaaS landing page built with modern HTML
 - CSS3
 
 ## Live Demo
-(https://estheraustra-stack.github.io/nexora-saas-landing-page)
+https://estheraustra-stack.github.io/nexora-saas-landing-page/
 
 ## Author
 Esther Austra
