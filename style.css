@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #0f172a;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 80px;
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: linear-gradient(135deg, #1e293b, #2563eb);
+}
+
+.hero-content {
+    max-width: 700px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+
+.btn-primary {
+    background: #38bdf8;
+    padding: 12px 25px;
+    border-radius: 30px;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.btn-primary:hover {
+    transform: scale(1.05);
+}
+
+.btn-outline {
+    border: 2px solid white;
+    padding: 12px 25px;
+    border-radius: 30px;
+    text-decoration: none;
+    color: white;
+}
+
+.features, .pricing, .testimonials {
+    padding: 80px;
+    text-align: center;
+}
+
+.feature-grid, .pricing-grid, .testimonial-grid {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.card, .price-card, .testimonial {
+    background: rgba(255,255,255,0.05);
+    padding: 30px;
+    border-radius: 15px;
+    width: 300px;
+    backdrop-filter: blur(10px);
+}
+
+.featured {
+    background: #38bdf8;
+    color: black;
+}
+
+.cta {
+    padding: 80px;
+    text-align: center;
+    background: #1e293b;
